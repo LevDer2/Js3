@@ -13,9 +13,13 @@ const name = "name";
 const is = "is";
 const fullName = my + " " + name + " " + is + " Viktor";
 console.log(fullName);
+console.log(typeof(fullName));
+
 
 // Task 4
 
 const userName = prompt("Введіть своє ім'я");
 const payment = 300;
 const rest = alert(`${userName}! До сплати ${payment} ,гривень`)
+console.log(rest);
+console.log(typeof(rest));
